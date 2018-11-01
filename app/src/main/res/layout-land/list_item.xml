@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+    <TextView android:id="@+id/name"
+              android:layout_width="300dp"
+   			  android:layout_height="40sp"
+   			  android:padding="3sp"
+   			  />
+ 
+    <TextView android:id="@+id/companyNumber"
+              android:layout_width="190dp"
+   			  android:layout_height="40sp"
+   			  android:layout_toRightOf="@+id/name"/>
+
+    <TextView android:id="@+id/confirmed"
+              android:layout_width="10dp"
+   			  android:layout_height="40sp"
+   			  android:layout_toRightOf="@+id/companyNumber"/>
+    
+     <TextView android:id="@+id/accommodation"
+              android:layout_width="10dp"
+   			  android:layout_height="40sp"
+   			  android:layout_toRightOf="@+id/confirmed"/>
+    
+     <TextView android:id="@+id/state"
+              android:layout_width="180dp"
+   			  android:layout_height="wrap_content"
+   			  android:layout_toRightOf="@+id/accommodation"/>
+    
+     <TextView android:id="@+id/userCode"
+              android:layout_width="70dp"
+   			  android:layout_height="wrap_content"
+   			  android:layout_toRightOf="@+id/state"/>
+          
+</RelativeLayout>

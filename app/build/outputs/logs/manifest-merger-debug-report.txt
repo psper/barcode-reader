@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:9:22-64
+application
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:12:5-39:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\paulo\.android\build-cache\a8ebc2aea63a813cbbf8ae34cafe2d7ea3c3d310\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\paulo\.android\build-cache\56b509b917f5292e10638fecd969f5eeed6c1fad\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\paulo\.android\build-cache\6bd58943f663443ecf3d0aabef887106169a91f5\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\paulo\.android\build-cache\9d6480c1c7b13a4985a34f16bf53a089a4c2b775\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:design:24.2.0] C:\Users\paulo\.android\build-cache\05eb9ad88b90054ca31918035345a20e5d5645a2\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\paulo\.android\build-cache\9c2829f0425b18340a1d2ba4b8d04ee930ae8d1f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\paulo\.android\build-cache\02f09f86b6d9c45460dcd0cba3bbcf38aa4dd0c9\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\paulo\.android\build-cache\3f912361360e5ed73f5cf39df1c38245876726ee\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\paulo\.android\build-cache\e87a64105667250262a5efd955c2dbce27faf5b7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\paulo\.android\build-cache\64bb97299d693214e56058e522ac3596034853ce\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\paulo\.android\build-cache\db09ebdb2f1202b7772072753177ba4aa9f1c1a8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\paulo\.android\build-cache\2b1ab662a74803135db0c480c17015e075ca8187\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\paulo\.android\build-cache\3bd3f831b6e8742eccd534510f3d8f48241b25ad\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\paulo\.android\build-cache\2f3589a8dec78efa111780243e7604a1f5c93d99\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:17:9-41
+	android:supportsRtl
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:18:9-37
+	android:hardwareAccelerated
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:15:9-43
+	android:fullBackupContent
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:14:9-42
+	android:allowBackup
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:16:9-38
+	android:theme
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:19:9-47
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:20:9-22:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\paulo\.android\build-cache\9d6480c1c7b13a4985a34f16bf53a089a4c2b775\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:22:13-66
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:21:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:23:9-25:39
+	android:value
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:24:13-70
+activity#com.easy.barcodereader.MainActivity
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:label
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:28:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:33:27-74
+activity#com.easy.barcodereader.BarcodeCaptureActivity
+ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:37:9-38:43
+	android:label
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:38:13-41
+	android:name
+		ADDED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml:37:19-57
+uses-sdk
+INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\paulo\.android\build-cache\a8ebc2aea63a813cbbf8ae34cafe2d7ea3c3d310\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\paulo\.android\build-cache\56b509b917f5292e10638fecd969f5eeed6c1fad\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\paulo\.android\build-cache\6bd58943f663443ecf3d0aabef887106169a91f5\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\paulo\.android\build-cache\9d6480c1c7b13a4985a34f16bf53a089a4c2b775\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:24.2.0] C:\Users\paulo\.android\build-cache\05eb9ad88b90054ca31918035345a20e5d5645a2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\paulo\.android\build-cache\9c2829f0425b18340a1d2ba4b8d04ee930ae8d1f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\paulo\.android\build-cache\02f09f86b6d9c45460dcd0cba3bbcf38aa4dd0c9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\paulo\.android\build-cache\3f912361360e5ed73f5cf39df1c38245876726ee\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\paulo\.android\build-cache\e87a64105667250262a5efd955c2dbce27faf5b7\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\paulo\.android\build-cache\64bb97299d693214e56058e522ac3596034853ce\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\paulo\.android\build-cache\db09ebdb2f1202b7772072753177ba4aa9f1c1a8\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\paulo\.android\build-cache\2b1ab662a74803135db0c480c17015e075ca8187\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\paulo\.android\build-cache\77935105efdcbb7c44f5f50c8872067c9468368e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\paulo\.android\build-cache\3bd3f831b6e8742eccd534510f3d8f48241b25ad\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\paulo\.android\build-cache\2f3589a8dec78efa111780243e7604a1f5c93d99\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\paulo\.android\build-cache\9c2829f0425b18340a1d2ba4b8d04ee930ae8d1f\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\paulo\Documents\workspace3\barcode-reader\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\paulo\.android\build-cache\56b509b917f5292e10638fecd969f5eeed6c1fad\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\paulo\.android\build-cache\56b509b917f5292e10638fecd969f5eeed6c1fad\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\paulo\.android\build-cache\56b509b917f5292e10638fecd969f5eeed6c1fad\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\paulo\.android\build-cache\56b509b917f5292e10638fecd969f5eeed6c1fad\output\AndroidManifest.xml:20:19-85

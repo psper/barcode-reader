@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/config_view"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+  
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:padding="14dp">
+
+
+            <!-- Server IP -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Server IP:"
+                android:textSize="14dp"  >
+                
+            </TextView>
+            <EditText
+                android:id="@+id/config_dialog_edit_text_serverip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp">
+            </EditText>
+
+            <!-- Server Port -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Server Port:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/config_dialog_edit_text_serverport"
+                android:layout_width="fill_parent"
+                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+            <!-- Post Id -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posto:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/config_dialog_edit_text_postid"
+                android:layout_width="fill_parent"
+                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+            <!-- Ping Times -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numero de vezes que faz Ping:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/config_dialog_edit_text_pintimes"
+                android:layout_width="fill_parent"
+                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+            <LinearLayout
+	            android:orientation="horizontal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="0.5"
+	            android:padding="14dp">
+	            <Button
+	                android:id="@+id/config_dialog_button_ping"
+	                android:layout_width="60dp"
+	                android:layout_height="60dp"
+	                android:layout_gravity="center"
+	                android:height="80dp"
+	                android:text="Ping !"
+	                android:textSize="12sp"
+	                android:textColor="@color/cyan"
+	                android:width="120dp" >
+	            </Button>            
+		       
+            </LinearLayout>
+
+ 		</LinearLayout>
+    </LinearLayout>
+             
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="377dp"
+      android:layout_gravity="center"
+      android:orientation="horizontal">
+
+    <com.easy.barcodereader.ui.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <com.easy.barcodereader.ui.camera.GraphicOverlay
+          android:id="@+id/graphicOverlay"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+
+    </com.easy.barcodereader.ui.camera.CameraSourcePreview>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="14dp">
+
+    <TextView
+        android:id="@+id/textMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:padding="3sp"
+        android:text=" "
+        android:textColor="@color/white"
+        android:textSize="14sp" >
+    </TextView>
+  </LinearLayout>
+
+</LinearLayout>
