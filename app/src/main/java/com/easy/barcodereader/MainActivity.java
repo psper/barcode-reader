@@ -303,8 +303,13 @@ import android.widget.Toast;
 
         autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.use_flash);
+        autoFocus.setChecked(true);
 
         findViewById(R.id.read_barcode).setOnClickListener(this);
+
+        final Button ButtonQr = (Button) findViewById(R.id.read_barcode);
+        ButtonQr.setFocusableInTouchMode(true);
+        ButtonQr.requestFocus();
 
     }
 
