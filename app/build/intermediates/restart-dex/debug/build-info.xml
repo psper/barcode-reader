@@ -6,37 +6,27 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1541084317570"
+    timestamp="1541096185649"
     token="-8409023614434435759"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="863" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="26" />
+        duration="0" />
     <task
         name="verifier"
-        duration="4" />
-
-    <artifact
-        location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1541083116960"
+        timestamp="1541092463807"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
@@ -51,6 +41,9 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -73,33 +66,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1541083389191"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1541084201779"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1541084317570"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\paulo\Documents\workspace3\barcode-reader\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
+        timestamp="1541096185649"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
