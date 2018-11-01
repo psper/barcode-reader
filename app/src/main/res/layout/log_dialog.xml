@@ -29,7 +29,7 @@
 		        android:id="@+id/tvusb"
 		        android:layout_width="fill_parent"
 		        android:layout_height="20dp"
-		        android:layout_gravity="left" aaaa
+		        android:layout_gravity="left" aaaas
 		        android:gravity="left"
 		        />		    
 		    
