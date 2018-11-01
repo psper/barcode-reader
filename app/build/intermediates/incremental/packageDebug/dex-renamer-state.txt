@@ -1,7 +1,0 @@
-#Thu Nov 01 19:32:23 GMT 2018
-base.0=C\:\\Users\\paulo\\Documents\\workspace3\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b28a5740d8ed4a1f62422ac0953484e44dc4a557
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\paulo\\Documents\\workspace3\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4007deac8629336cc4bf88d24a8b67af794df09b\\classes.dex
-base.1=C\:\\Users\\paulo\\Documents\\workspace3\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4007deac8629336cc4bf88d24a8b67af794df09b
-file.0=C\:\\Users\\paulo\\Documents\\workspace3\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b28a5740d8ed4a1f62422ac0953484e44dc4a557\\classes.dex
