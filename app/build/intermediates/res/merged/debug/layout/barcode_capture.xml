@@ -39,12 +39,16 @@
         android:id="@+id/textMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5sp"
         android:padding="3sp"
-        android:text=" "
+        android:gravity="center"
+        android:text="########"
         android:textColor="@color/white"
         android:textSize="14sp" >
     </TextView>
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:gravity="center"/>
   </LinearLayout>
 
 </LinearLayout>
