@@ -42,6 +42,7 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -145,6 +146,19 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         setContentView(R.layout.barcode_capture);
+
+        Button button = (Button) findViewById(R.id.btnContinue);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Button button1 = (Button) findViewById(R.id.btnContinue);
+                button1.setVisibility(View.INVISIBLE);
+                TextView txtUser = (TextView) findViewById(R.id.textMsg);
+                txtUser.setText("");
+
+                LinearLayout li=(LinearLayout) findViewById(R.id.topLayout);
+                li.setBackgroundColor(Color.parseColor("#000000"));
+            }
+        });
 
         /////////////////////////////////////////////////////////////
 
@@ -541,6 +555,12 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
      * @return true if the activity is ending.
      */
     private boolean onTap(float rawX, float rawY) {
+
+        Button button1 = (Button) findViewById(R.id.btnContinue);
+        if(button1.getVisibility() == View.VISIBLE)
+        {
+            return false;
+        }
         // Find tap point in preview frame coordinates.
         int[] location = new int[2];
         mGraphicOverlay.getLocationOnScreen(location);
@@ -875,23 +895,27 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
                 TextViewWait.setText(ResponseUser);
 
                 LinearLayout li=(LinearLayout) findViewById(R.id.topLayout);
+                Button btnContinue = (Button)findViewById(R.id.btnContinue);
 
                 switch (ResponseCode) {
                     case "0":
                         //Sucesso
                         li.setBackgroundColor(Color.parseColor("#7fff00"));
                         TextViewWait.setTextColor(Color.parseColor("#000000"));
+                        btnContinue.setVisibility(View.VISIBLE);
                         break;
                     case "-1":
                         //User Inexistente
                         li.setBackgroundColor(Color.parseColor("#ff0000"));
                         TextViewWait.setTextColor(Color.parseColor("#FFFFFF"));
                         TextViewWait.setText("Utilizador inexistente");
+                        btnContinue.setVisibility(View.VISIBLE);
                         break;
                     case "-2":
                         //Já entrou
                         li.setBackgroundColor(Color.parseColor("#0000ff"));
                         TextViewWait.setTextColor(Color.parseColor("#FFFFFF"));
+                        btnContinue.setVisibility(View.VISIBLE);
                         break;
                 }
 

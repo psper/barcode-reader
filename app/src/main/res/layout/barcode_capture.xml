@@ -5,24 +5,26 @@
     android:id="@+id/topLayout"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
     android:layout_height="match_parent"
     android:keepScreenOn="true">
 
   <LinearLayout
-      android:layout_width="wrap_content"
+      android:layout_width="fill_parent"
       android:layout_height="377dp"
       android:layout_gravity="center"
       android:orientation="horizontal">
 
     <com.easy.barcodereader.ui.camera.CameraSourcePreview
         android:id="@+id/preview"
-        android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
 
       <com.easy.barcodereader.ui.camera.GraphicOverlay
           android:id="@+id/graphicOverlay"
-          android:layout_width="match_parent"
+          android:layout_marginLeft="50sp"
+          android:layout_width="wrap_content"
           android:layout_height="match_parent" />
 
     </com.easy.barcodereader.ui.camera.CameraSourcePreview>
@@ -30,7 +32,7 @@
   </LinearLayout>
 
   <LinearLayout
-      android:layout_width="wrap_content"
+      android:layout_width="fill_parent"
       android:layout_height="wrap_content"
       android:orientation="vertical"
       android:padding="14dp">
@@ -41,14 +43,20 @@
         android:layout_height="wrap_content"
         android:padding="3sp"
         android:gravity="center"
-        android:text="########A"
+        android:text=""
+        android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
         android:textSize="14sp" >
     </TextView>
+
     <Button
+        android:id="@+id/btnContinue"
         android:layout_width="200sp"
         android:layout_height="80sp"
-        android:gravity="center"/>
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Nova leitura"
+        android:visibility="invisible" />
   </LinearLayout>
 
 </LinearLayout>

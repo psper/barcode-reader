@@ -298,15 +298,6 @@ import android.widget.Toast;
 
 
 
-
-
-
-
-
-
-
-
-
     statusMessage = (TextView)findViewById(R.id.textWait);
         barcodeValue = (TextView)findViewById(R.id.textWait);
 
@@ -314,6 +305,7 @@ import android.widget.Toast;
         useFlash = (CompoundButton) findViewById(R.id.use_flash);
 
         findViewById(R.id.read_barcode).setOnClickListener(this);
+
     }
 
     /**
@@ -915,11 +907,7 @@ import android.widget.Toast;
         AlertDialog dialog=null;
 
         switch (id) {
-
-
             case DIALOG_CONFIG:
-
-
                 inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
                 layout = inflater.inflate(R.layout.config_dialog,(ViewGroup) findViewById(R.id.config_view));
 
